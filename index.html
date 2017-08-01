@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="asset/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="asset/css/style.css">
+	<script
+	
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+	
+</head>
+<body>
+	
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12" id="header">
+				<h1>Crystals Collector!</h1>
+			</div>
+		</div>
+
+		<br>
+
+		<div class="row">
+			<div class="col-md-7" id="instructions">
+			 	<p>
+			 	You will be given a random number at the start of the game.
+			 	<br>
+			 	<br>
+			 	There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.
+			 	<br>
+			 	<br>
+			 	You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+			 	<br>
+			 	<br>
+			 	The value of each crystal is hidden from you until yo click on it.
+			 	<br>
+			 	<br>
+			 	Each time when the game starts, the game will change the values of each crystal.
+			 	</p>
+			</div>
+
+			<div class="col-md-5">
+			<div class="row">
+				<div class="col-sm-3" id="gems ">
+					<img class="red" src="asset/images/red.jpg" alt="" width="75px" height="75px">
+				</div>
+
+				<div class="col-sm-3" id="gems ">
+
+					<img class="blue" src="asset/images/blue.jpg" alt=""  width="75px" height="75px">
+					
+				</div>
+
+				<div class="col-sm-3" id="gems green">
+
+					<img class="green" src="asset/images/green.jpg" alt=""  width="75px" height="75px">
+					
+				</div>
+
+				<div class="col-sm-3" id="gems ">
+
+					<img class="yellow" src="asset/images/yellow.jpg" alt=""  width="75px" height="75px">
+					
+				</div>
+
+			</div>
+			<br>
+			<br>
+
+			<div class="row">
+				
+				<div class="col-sm-4" id="computerScore">
+				
+					
+				</div>
+
+				<div class="col-sm-4">
+
+					<p id="score1">
+						Your total score is:
+					</p>
+
+					<div class="row" id="score">
+					
+						
+					</div>
+					
+				</div>
+
+
+				<div class="col-sm-4" id="scoreboard">
+
+				<p id="wins"></p>
+				<p id="losses"></p>
+
+				
+					
+				</div>
+
+			</div>
+		</div>
+
+		
+		</div>
+	</div>
+
+	<script type="text/javascript" src="asset/javascript/game.js"></script>
+
+</body>
+</html>
