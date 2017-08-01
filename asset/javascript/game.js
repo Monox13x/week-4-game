@@ -37,12 +37,14 @@ function reset(){
 function yay(){
 alert("You won!");
   wins++; 
+  $("#wins").text("wins: " + wins);
   reset();
 }
 
 function loser(){
 alert ("You lose!");
   losses++;
+  $("#losses").text("losses: " + losses);
   reset()
 }
 
